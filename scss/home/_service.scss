@@ -1,0 +1,149 @@
+.consul-target {
+  background-color: #f7dae0;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include spTab {
+    width: 100%;
+  }
+}
+
+.problem-list {
+  padding-top: 50px;
+  padding-left: 0;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.problem-item {
+  line-height: 30px;
+
+  @include spTab {
+    font-size: 12px;
+  }
+}
+
+.problem-text {
+  text-align: center;
+  margin-top: 50px;
+  padding-bottom: 50px;
+  font-size: 24px;
+
+  @include spTab {
+    font-size: 18px;
+  }
+}
+
+.consul-bg {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  width: 60%;
+
+  @include spTab {
+    margin-top: 40px;
+    width: 80%;
+    font-size: 12px;
+  }
+}
+
+.sub-sub-title {
+  font-size: 18px;
+  margin-bottom: 40px;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.cs-sv-list {
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(-45deg, #f7dae0, #cff3fa);
+
+  @include spTab {
+    display: block;
+    padding: 40px 0;
+  }
+}
+
+.cs-sv-item {
+  width: 25%;
+  background-color: #ffffff;
+  margin: 50px 0;
+  border: 1px solid #707070;
+
+  @include spTab {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+  }
+}
+
+.cs-sv-name {
+  font-size: 18px;
+  padding: 20px 0;
+  border-bottom: 1px solid #707070;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+  &:nth-child(3) {
+    font-size: 12px;
+  }
+
+  p {
+    font-size: 10px;
+  }
+}
+
+.cs-sv-text {
+  padding-top: 20px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+  font-size: 12px;
+}
+
+.strength-list {
+  width: 60%;
+  margin: 0 auto;
+
+  @include spTab {
+    width: 80%;
+    padding-left: 0;
+  }
+}
+
+.strength-title {
+  font-size: 24px;
+  border-bottom: 1px solid #707070;
+  padding-bottom: 5px;
+
+  @include spTab {
+    font-size: 18px;
+  }
+}
+
+.strength-text {
+  margin-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  @include spTab {
+    margin-left: 0;
+    font-size: 12px;
+  }
+}
+
+.consul-flow {
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+
+  @include spTab {
+    width: 80%;
+  }
+}

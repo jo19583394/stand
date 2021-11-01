@@ -1,0 +1,71 @@
+.ms-main {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ms-label {
+  border-left: 10px solid #cff3fa;
+  padding-left: 10px;
+  font-size: 24px;
+}
+
+.ms-title {
+  font-size: 24px;
+
+  @include spTab {
+    font-size: 18px;
+  }
+}
+
+.ms-text {
+  @include spTab {
+    font-size: 12px;
+  }
+}
+
+.vl-content {
+  display: flex;
+  margin-top: 40px;
+  position: relative;
+
+  @include spTab {
+    display: block;
+  }
+}
+
+.vl-list {
+  list-style-type: square;
+  padding-left: 0;
+}
+
+.vl-title {
+  font-size: 24px;
+  &:nth-child(n + 1) {
+    margin-top: 30px;
+  }
+
+  @include spTab {
+    font-size: 18px;
+
+    &:nth-child(n + 1) {
+      margin-top: 15px;
+    }
+  }
+}
+
+.ms-image {
+  width: 50%;
+  height: auto;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+
+  @include spTab {
+    margin-top: 40px;
+    width: 80%;
+    position: static;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
